@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "label": "Nome",
+      "type": "textfield",
+      "id": "Field_10ui009",
+      "key": "nome",
+      "description": "Nome do cliente"
+    },
+    {
+      "label": "Data nascimento",
+      "type": "textfield",
+      "id": "Field_0iiv0cd",
+      "key": "dataNascimento",
+      "description": "Data nascimento do cliente",
+      "validate": {
+        "pattern": "^(19|20)\\d\\d[-](0[1-9]|1[012])[-](0[1-9]|[12][0-9]|3[01])$"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "formulariocadastro",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}
